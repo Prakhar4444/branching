@@ -5,7 +5,10 @@ class Student {
        int id;     
        string name;      
        void insert(int i, string n) 
-       void display()       
+       void display() 
+        {
+            cout<<id<<"  "<<name<<endl;
+        }
 };  
 int main() 
 {  

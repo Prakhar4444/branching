@@ -14,7 +14,7 @@ int main()
 {  
     Student s1;    
     Student s2;   
-    s1.insert(201, "Sonoo");    
+    s1.insert(201, "Prakhar");    
     s2.insert(202, "Piyush");    
     s1.display();    
     s2.display();  

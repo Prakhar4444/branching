@@ -4,7 +4,12 @@ class Student {
    public:  
        int id;     
        string name;      
-       void insert(int i, string n) 
+       void insert(int i, string n)       
+        {       
+            id = i;    
+            name = n;    
+        }    
+
        void display()       
 };  
 int main() 
